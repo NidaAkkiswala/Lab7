@@ -5,7 +5,7 @@ function init()
 	function alertMe() 
 	{
 		var input = document.getElementById("entryinput");
-	    var output = document.getElementById("textoutput");
+		var output = document.getElementById("textoutput");
 		alert('Nida Akkiswala: ' + input.value);
 		output.innerHTML = input.value;
 	}
