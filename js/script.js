@@ -1,10 +1,11 @@
-function init() {
-	
+function init() 
+{
 	var entry = document.getElementById("entrybutton");
-	var input = document.getElementById("entryinput");
-	var output = document.getElementById("textoutput");
 	
-	funtion alertMe() {
+	function alertMe() 
+	{
+		var input = document.getElementById("entryinput");
+	    var output = document.getElementById("textoutput");
 		alert('Nida Akkiswala: ' + input.value);
 		output.innerHTML = input.value;
 	}
